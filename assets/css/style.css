@@ -1,0 +1,85 @@
+@import url('reset.css');
+@import url('variables.css');
+
+* {
+    font-family: var(--ff-work-sans);
+}
+
+body {
+    background-color: var(--light-pink);
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: var(--calc-1_5);
+}
+
+header {
+    background: url('../images/background-pattern-desktop.svg');
+    background-position: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--calc-20);
+    z-index: -10;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: var(--calc-1);
+    padding: var(--calc-2_5);
+    width: 100%;
+    max-width: var(--calc-37_5);
+}
+
+h1 {
+    font-weight: var(--fw-bold);
+    font-size: var(--calc-3_5);
+    display: flex;
+    gap: var(--calc-1_5);
+    margin-bottom: var(--calc-2);
+    color: var(--dark-purple);
+
+}
+
+h2 {
+    font-weight: var(--fw-semibold);
+    font-size: var(--calc-1_125);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark-purple);
+    cursor: pointer;
+}
+
+h2:hover {
+    color: var(--pink);
+}
+
+p {
+    margin-top: var(--calc-2_5);
+    color: var(--grayish-purple);
+    font-size: var(--calc-1);
+    line-height: 150%;
+
+}
+
+li:not(:last-child) {
+    padding-bottom: var(--calc-1_5);
+    border-bottom: 1px solid var(--light-pink);
+    margin-bottom: var(--calc-1_5);
+}
+
+
+/* Initially hide all paragraphs */
+ul p {
+    display: none;
+}
+
+/* Styling for the expanded state */
+ul li.active p {
+    display: block;
+}
+
+

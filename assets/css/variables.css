@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+    --pink:#AD28EB;
+    
+    /* Typography */
+    --ff-work-sans: 'Work Sans', sans-serif;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --calc-1: 1rem;
+    /* 16px */
+
+    --calc-1_125: 1.125rem;
+    /* 18px */
+
+    --calc-1_5: 1.5rem;
+    /* 24px */
+
+    --calc-2: 2rem;
+    /* 32px */
+
+    --calc-2_5: 2.5rem;
+    /* 40px */
+
+    --calc-3_5: 3.5rem;
+    /* 56px */
+
+    --calc-20: 20rem;
+    /* 320px */
+    
+    --calc-37_5: 37.5rem;
+    /* 600px */
+}
